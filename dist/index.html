@@ -204,24 +204,29 @@
                 <button class=" bg-minligth px-3 my-5 py-2 rounded-3xl mx-auto block md:hidden">SeeMore..</button>
                 </div>
             </section>
-            <section class="h-screen bg-red w-screen">
+            <section class="h-screen w-screen flex flex-col">
                 <div class="h-16 w-screen bg-blue flex ">
                     <h1 class="mx-auto text-5xl my-auto font-tilt">Contect</h1>
                 </div>
-                <div class=" h-3/4 flex flex-col justify-evenly">    
-                    <div class="bg-green w-60 mx-auto flex-col flex">
-                        <label for="text">Name</label>
-                        <input type="text">
+                <div class=" h-96 max-h-fit border-minligth rounded-3xl border-2 mx-5 px-5 flex flex-col my-auto">
+                    <div class="my-auto flex flex-col">
+                        <div class="bg-green  flex-col flex  justify-evenly h-16 mt-5">
+                            <label for="text" class="my-auto font-tinos text-lg">Name</label>
+                            <input type="text" class="my-auto rounded-md h-10">
+                        </div>
+                        <div class=" bg-blue flex flex-col h-16 mt-5">
+                            <label for="text" class="my-auto ">Email</label>
+                            <input type="mail" name="" id="" class="my-auto ">
+                        </div>  
+                        <div class="bg-black flex flex-col h-28 mt-5">
+                            <label for="text" class="my-auto ">Message</label>
+                            <textarea name="message" id="" cols="40" rows="10" class="my-auto "></textarea>
+                        </div>  
+                        <div class="mx-auto my-auto mb-5 mt-3 ">
+                            <button class=" bg-blue px-5 py-3 rounded-3xl">Send Now</button>
+                        </div>                    
                     </div>
-                    <div class=" bg-blue flex flex-col">
-                        <label for="text">Email</label>
-                        <input type="mail" name="" id="">
-                    </div>  
-                    <div class="bg-black flex flex-col">
-                        <label for="text">Message</label>
-                        <input type="textarea" name="" id="">
-                    </div>                      
-                </div>
+                    </div>
             </section>
         </main>
     </body>
